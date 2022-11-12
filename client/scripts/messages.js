@@ -1,4 +1,5 @@
 var Messages = {
+
   _data: {},
 
   items: function() {
@@ -32,3 +33,5 @@ var Messages = {
   }
 
 };
+
+module.exports.messages = Messages;
